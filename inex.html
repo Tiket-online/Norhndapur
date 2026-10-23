@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>'Terror Machine' 25th North Ndapur Celebration - Tiket Online</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Font Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            blue: '#2563eb',
+                            darkBlue: '#1d4ed8',
+                            accent: '#3b82f6',
+                            dark: '#0f172a',
+                            card: '#1e293b',
+                            border: '#334155'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #0b0f19;
+            color: #f8fafc;
+        }
+        .hero-gradient {
+            background: linear-gradient(180deg, rgba(15, 23, 42, 0.4) 0%, rgba(11, 15, 25, 1) 100%), 
+                        radial-gradient(circle at center, rgba(37, 99, 235, 0.25) 0%, rgba(11, 15, 25, 0.8) 100%);
+        }
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .tab-btn.active {
+            border-bottom: 3px solid #3b82f6;
+            color: #60a5fa;
+            font-weight: 700;
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0b0f19;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #475569;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased min-h-screen flex flex-col justify-between pb-24 md:pb-0">
+
+    <!-- Header / Navbar -->
+    <header class="sticky top-0 z-40 bg-slate-900/90 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-9 h-9 bg-blue-600 rounded-lg flex items-center justify-center font-black text-xl text-white tracking-tighter">
+                    A
+                </div>
+                <span class="text-xl font-bold tracking-tight text-white">Artatix</span>
+            </div>
+            <div class="flex items-center space-x-3">
+                <span class="bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded-full border border-slate-700 flex items-center gap-1">
+                    <i class="fa-solid font-bold text-red-500 fa-circle text-[8px]"></i> ID
+                </span>
+                <button class="p-2 text-slate-400 hover:text-white rounded-lg transition-colors">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <button class="p-2 text-slate-400 hover:text-white rounded-lg transition-colors">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="max-w-4xl mx-auto w-full px-4 pt-4 pb-12 flex-grow">
+
+        <!-- Hero Banner Image / Visual -->
+        <div class="relative rounded-2xl overflow-hidden border border-slate-800 mb-6 bg-slate-950 shadow-2xl">
+            <div class="hero-gradient p-6 md:p-10 flex flex-col items-center justify-center text-center min-h-[220px] relative overflow-hidden">
+                <!-- Background Decorative Skull Overlay Simulation -->
+                <div class="absolute inset-0 opacity-10 flex items-center justify-center pointer-events-none">
+                    <i class="fa-solid fa-skull-crossbones text-[180px] text-slate-100"></i>
+                </div>
+                
+                <span class="text-xs uppercase tracking-widest text-slate-400 font-bold mb-1">TERROR MACHINE</span>
+                <h1 class="text-2xl md:text-4xl font-black tracking-tight text-white mb-2 leading-tight">
+                    25th NORTH NDAPUR CELEBRATION
+                </h1>
+                <div class="inline-block bg-slate-900/90 border border-slate-700/80 px-4 py-1.5 rounded-full text-xs md:text-sm font-semibold text-slate-300 mt-2">
+                    <i class="fa-regular fa-calendar-days text-blue-400 mr-1.5"></i> 24 OKTOBER 2026 | SPORT CENTER LAMONGAN
+                </div>
+            </div>
+        </div>
+
+        <!-- Event Main Meta Info -->
+        <div class="space-y-4 mb-6">
+            <div class="flex items-center gap-2">
+                <span class="bg-blue-500/10 text-blue-400 border border-blue-500/20 text-xs font-semibold px-3 py-1 rounded-full flex items-center gap-1.5">
+                    <i class="fa-solid fa-music text-[10px]"></i> Musik
+                </span>
+            </div>
+
+            <h2 class="text-2xl md:text-3xl font-extrabold text-white tracking-tight">
+                'Terror Machine' 25th North Ndapur Celebration
+            </h2>
+
+            <!-- Detail Acara Section -->
+            <div class="bg-slate-900/80 border border-slate-800/80 rounded-xl p-4 space-y-3.5">
+                <h3 class="text-sm font-bold text-slate-400 uppercase tracking-wider">Detail Acara</h3>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5 text-sm">
+                    <div class="flex items-start space-x-3">
+                        <div class="w-9 h-9 rounded-lg bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400 shrink-0">
+                            <i class="fa-regular fa-calendar text-base"></i>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-400">Tanggal</p>
+                            <p class="font-semibold text-white">24 Oktober 2026</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-3">
+                        <div class="w-9 h-9 rounded-lg bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400 shrink-0">
+                            <i class="fa-regular fa-clock text-base"></i>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-400">Waktu</p>
+                            <p class="font-semibold text-white">14:30 - 23:00 WIB</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-3">
+                        <div class="w-9 h-9 rounded-lg bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400 shrink-0">
+                            <i class="fa-solid fa-location-dot text-base"></i>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-400">Lokasi</p>
+                            <p class="font-semibold text-white">Sport Center Lamongan, Kab. Lamongan, Jawa Timur</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Penyelenggara -->
+            <div class="flex items-center space-x-3 p-3 bg-slate-900/50 border border-slate-800/50 rounded-xl">
+                <div class="w-10 h-10 rounded-full bg-slate-950 border border-slate-700 flex items-center justify-center overflow-hidden shrink-0">
+                    <i class="fa-solid fa-users text-blue-400"></i>
+                </div>
+                <div>
+                    <p class="text-xs text-slate-400">Penyelenggara</p>
+                    <p class="font-bold text-white text-sm">North Ndapur</p>
+                </div>
+            </div>
+
+            <!-- Social Media Share -->
+            <div class="flex items-center space-x-2 pt-1">
+                <span class="text-xs text-slate-400 mr-1">Media Sosial:</span>
+                <a href="#" class="bg-blue-600/20 border border-blue-500/30 text-blue-400 px-3 py-1 rounded-lg text-xs font-medium hover:bg-blue-600/30 transition flex items-center gap-1.5">
+                    <i class="fa-brands fa-instagram"></i> Instagram
+                </a>
+                <a href="#" class="bg-slate-800 border border-slate-700 text-slate-300 px-3 py-1 rounded-lg text-xs font-medium hover:bg-slate-700 transition flex items-center gap-1.5">
+                    <i class="fa-brands fa-tiktok"></i> TikTok
+                </a>
+            </div>
+        </div>
+
+        <!-- Navigation Tabs -->
+        <div class="border-b border-slate-800 mb-6 flex overflow-x-auto no-scrollbar space-x-6 text-sm font-medium">
+            <button onclick="switchTab('deskripsi')" id="tab-deskripsi" class="tab-btn pb-3 text-slate-400 hover:text-white transition active whitespace-nowrap">
+                Deskripsi
+            </button>
+            <button onclick="switchTab('syarat')" id="tab-syarat" class="tab-btn pb-3 text-slate-400 hover:text-white transition whitespace-nowrap">
+                Syarat & Ketentuan
+            </button>
+            <button onclick="switchTab('pemesanan')" id="tab-pemesanan" class="tab-btn pb-3 text-slate-400 hover:text-white transition whitespace-nowrap flex items-center gap-1.5">
+                <span>Pesan Tiket</span>
+                <span class="bg-blue-600 text-white text-[10px] px-1.5 py-0.5 rounded-full font-bold">HOT</span>
+            </button>
+        </div>
+
+        <!-- TAB CONTENT: DESKRIPSI -->
+        <div id="content-deskripsi" class="tab-content space-y-4 text-slate-300 text-sm leading-relaxed">
+            <h3 class="text-lg font-bold text-white mb-2">"TERROR MACHINE"</h3>
+            <p class="font-semibold text-blue-400">25TH North Ndapur Celebration</p>
+            <p>
+                Tahun ini Selebrasi Perayaan Event North Ndapur memasuki babak event ketiga, Mengingat Refleksi Perjalanan North Ndapur yang sudah memasuki Usia ke 25 Tahun. Dengan bangga mempersembahkan tema <strong class="text-white">“Terror Machine”</strong>.
+            </p>
+            <p>
+                Tema Tersebut terinspirasi dari Identitas / Slogan Distrik North Ndapur yaitu “Terror Machine”, Bila di Terjemahkan ke dalam Bahasa Indonesia bermakna “Mesin Terror”.
+            </p>
+            <p>
+                Menggambarkan Semangat Perjuangan saat mendukung dan mengawal Tim Kebanggaan Persela Lamongan dimanapun Berlaga.
+            </p>
+            <p>
+                Event ini akan menjadi salah 1 yang terbesar dari beberapa event North Ndapur sebelumnya.
+            </p>
+
+            <div class="mt-6 p-4 bg-blue-950/30 border border-blue-800/40 rounded-xl flex items-center justify-between">
+                <div>
+                    <p class="text-xs text-blue-300">Harga Tiket Presale</p>
+                    <p class="text-xl font-black text-white">Rp 75.000 <span class="text-xs font-normal text-slate-400">/ tiket</span></p>
+                </div>
+                <button onclick="switchTab('pemesanan')" class="bg-blue-600 hover:bg-blue-500 text-white font-bold px-5 py-2.5 rounded-lg text-sm transition">
+                    Pesan Tiket
+                </button>
+            </div>
+        </div>
+
+        <!-- TAB CONTENT: SYARAT & KETENTUAN -->
+        <div id="content-syarat" class="tab-content hidden space-y-3 text-slate-300 text-sm">
+            <ol class="list-decimal list-inside space-y-3 pl-1 leading-relaxed">
+                <li>Entry Pass yang valid adalah yang dibeli melalui <strong class="text-white">artatix.co.id</strong> dan ticket box yang tersedia.</li>
+                <li>Satu Tiket Masuk berlaku untuk satu orang.</li>
+                <li>Panitia tidak bertanggung jawab/ tidak ada penggantian kerugian atas pembelian tiket acara melalui calo/tempat/kanal/platform/yang bukan mitra resmi penjualan tiket <strong>25TH North Ndapur Celebration “Terror Machine”</strong>.</li>
+                <li>Tiket yang hilang/dicuri tidak akan diganti atau diterbitkan ulang. Meskipun Anda memiliki bukti pembelian. Tiket kalian merupakan tanggung jawab kalian.</li>
+                <li>Panitia acara, Promotor, dan Pengisi Acara tidak bertanggung jawab atas biaya transportasi atau penginapan yang telah dikeluarkan penonton untuk mengunjungi acara jika seandainya acara harus dibatalkan atau dipindahkan ke hari dan/atau waktu lain.</li>
+                <li>Dalam keadaan-keadaan kahar seperti bencana alam, perang, wabah, dan semua keadaan darurat yang diumumkan secara resmi oleh Pemerintah.</li>
+                <li>Panitia berhak merevisi waktu acara, tata letak tempat dan kapasitas penonton tanpa pemberitahuan sebelumnya.</li>
+                <li>Jika acara dibatalkan, Promotor harus mengembalikan uang pembelian tiket yang sudah dibeli dengan jangka waktu yang akan diinfokan lebih lanjut oleh Promotor, tetapi akan dipotong biaya bank dan administrasi.</li>
+                <li>Harap membawa kartu ID asli dan e-Ticket dari artatix.co.id saat melakukan penukaran tiket.</li>
+                <li>Barang yang boleh dibawa ke dalam venue:
+                    <ul class="list-disc list-inside pl-5 mt-1 space-y-1 text-slate-400">
+                        <li>Membawa kartu identitas dan uang pribadi</li>
+                        <li>Membawa bukti tiket/tanda masuk</li>
+                        <li>Membawa obat-obatan pribadi</li>
+                        <li>Membawa jas hujan</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <!-- TAB CONTENT: FORMULIR PEMESANAN -->
+        <div id="content-pemesanan" class="tab-content hidden">
+            <div class="glass-card rounded-2xl p-6 md:p-8 space-y-6">
+                <div>
+                    <h3 class="text-xl font-bold text-white flex items-center gap-2">
+                        <i class="fa-solid fa-ticket text-blue-500"></i> Formulir Pendaftaran & Pemesanan Tiket
+                    </h3>
+                    <p class="text-xs text-slate-400 mt-1">Lengkapi data diri Anda di bawah ini dengan benar untuk pemesanan tiket.</p>
+                </div>
+
+                <form id="ticketForm" onsubmit="handleFormSubmit(event)" class="space-y-4">
+                    <!-- Nama Lengkap -->
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Nama Lengkap *</label>
+                        <input type="text" id="fullname" required placeholder="Masukkan nama sesuai KTP/ID"
+                            class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 transition">
+                    </div>
+
+                    <!-- Email & WA Row -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Alamat Email *</label>
+                            <input type="email" id="email" required placeholder="contoh@email.com"
+                                class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 transition">
+                            <span class="text-[11px] text-slate-500 mt-1 block">E-Ticket akan dikirimkan ke email ini</span>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">No. WhatsApp / HP *</label>
+                            <input type="tel" id="whatsapp" required placeholder="081234567890"
+                                class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 transition">
+                        </div>
+                    </div>
+
+                    <!-- Jumlah Tiket -->
+                    <div class="bg-slate-900/60 p-4 rounded-xl border border-slate-800 space-y-2">
+                        <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider">Jumlah Tiket *</label>
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <p class="text-sm font-bold text-white">Presale Entry Pass</p>
+                                <p class="text-xs text-slate-400">Rp 75.000 / tiket</p>
+                            </div>
+                            <div class="flex items-center space-x-3 bg-slate-950 p-1.5 rounded-lg border border-slate-800">
+                                <button type="button" onclick="updateQuantity(-1)" class="w-8 h-8 rounded bg-slate-800 hover:bg-slate-700 flex items-center justify-center text-white text-lg font-bold transition">
+                                    -
+                                </button>
+                                <span id="ticketQty" class="w-8 text-center font-bold text-white text-base">1</span>
+                                <button type="button" onclick="updateQuantity(1)" class="w-8 h-8 rounded bg-slate-800 hover:bg-slate-700 flex items-center justify-center text-white text-lg font-bold transition">
+                                    +
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Metode Pembayaran -->
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Pilih Metode Pembayaran *</label>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+                            <label class="cursor-pointer">
+                                <input type="radio" name="payment_method" value="QRIS" checked class="peer hidden" onchange="updatePaymentDetails()">
+                                <div class="p-3 bg-slate-900 border border-slate-700 rounded-xl peer-checked:border-blue-500 peer-checked:bg-blue-950/20 flex flex-col items-center text-center space-y-1 hover:border-slate-600 transition">
+                                    <i class="fa-solid fa-qrcode text-lg text-blue-400"></i>
+                                    <span class="text-xs font-bold text-white">QRIS All Payment</span>
+                                    <span class="text-[10px] text-slate-400">Instant Confirmation</span>
+                                </div>
+                            </label>
+
+                            <label class="cursor-pointer">
+                                <input type="radio" name="payment_method" value="Transfer Bank" class="peer hidden" onchange="updatePaymentDetails()">
+                                <div class="p-3 bg-slate-900 border border-slate-700 rounded-xl peer-checked:border-blue-500 peer-checked:bg-blue-950/20 flex flex-col items-center text-center space-y-1 hover:border-slate-600 transition">
+                                    <i class="fa-solid fa-building-columns text-lg text-blue-400"></i>
+                                    <span class="text-xs font-bold text-white">Transfer Bank</span>
+                                    <span class="text-[10px] text-slate-400">BCA / Mandiri / BRI</span>
+                                </div>
+                            </label>
+
+                            <label class="cursor-pointer">
+                                <input type="radio" name="payment_method" value="E-Wallet" class="peer hidden" onchange="updatePaymentDetails()">
+                                <div class="p-3 bg-slate-900 border border-slate-700 rounded-xl peer-checked:border-blue-500 peer-checked:bg-blue-950/20 flex flex-col items-center text-center space-y-1 hover:border-slate-600 transition">
+                                    <i class="fa-solid fa-wallet text-lg text-blue-400"></i>
+                                    <span class="text-xs font-bold text-white">E-Wallet</span>
+                                    <span class="text-[10px] text-slate-400">GoPay / ShopeePay / DANA</span>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Instruksi Rekening / QRIS -->
+                    <div id="paymentInstructions" class="p-4 bg-slate-950 border border-slate-800 rounded-xl text-xs space-y-2">
+                        <p class="font-bold text-slate-300">Instruksi Pembayaran QRIS:</p>
+                        <p class="text-slate-400">Scan Kode QRIS resmi di bawah ini menggunakan aplikasi M-Banking atau E-Wallet pilihan Anda:</p>
+                        <div class="flex justify-center py-2">
+                            <div class="bg-white p-2 rounded-lg inline-block border border-slate-200 shadow-md">
+                                <img src="qris.png" alt="QRIS Toko Ticket" class="w-48 h-auto max-w-full rounded">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Upload Bukti Pembayaran -->
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Upload Bukti Pembayaran *</label>
+                        <div class="border-2 border-dashed border-slate-700 hover:border-blue-500 rounded-xl p-4 text-center cursor-pointer bg-slate-900/50 transition relative">
+                            <input type="file" id="proof" required accept="image/*" class="absolute inset-0 opacity-0 cursor-pointer" onchange="handleFileSelect(event)">
+                            <div id="fileUploadInfo" class="space-y-1">
+                                <i class="fa-solid fa-cloud-arrow-up text-2xl text-blue-400"></i>
+                                <p class="text-xs text-slate-300 font-medium">Klik atau seret file gambar ke sini</p>
+                                <p class="text-[10px] text-slate-500">Format JPG, PNG (Maks 5MB)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Ringkasan Harga Total -->
+                    <div class="border-t border-slate-800 pt-4 mt-6 flex items-center justify-between">
+                        <div>
+                            <span class="text-xs text-slate-400 block">Total Pembayaran:</span>
+                            <span id="totalPrice" class="text-2xl font-black text-blue-400">Rp 75.000</span>
+                        </div>
+                        <button type="submit" class="bg-blue-600 hover:bg-blue-500 text-white font-bold px-6 py-3 rounded-xl text-sm transition shadow-lg shadow-blue-600/30 flex items-center gap-2">
+                            <span>Kirim Pendaftaran</span>
+                            <i class="fa-solid fa-paper-plane text-xs"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Sticky Bottom Bar Mobile Only -->
+    <div class="fixed bottom-0 left-0 right-0 bg-slate-900/95 border-t border-slate-800 p-4 backdrop-blur-md md:hidden z-30">
+        <div class="max-w-4xl mx-auto flex items-center justify-between">
+            <div>
+                <span class="text-[11px] text-slate-400 block">Harga tiket mulai dari</span>
+                <span class="text-lg font-black text-blue-400">Rp 75.000</span>
+            </div>
+            <button onclick="switchTab('pemesanan')" class="bg-blue-600 hover:bg-blue-500 text-white font-bold px-6 py-2.5 rounded-xl text-sm transition shadow-lg shadow-blue-600/30">
+                Pesan Sekarang
+            </button>
+        </div>
+    </div>
+
+    <!-- Modal Success E-Ticket Simulation -->
+    <div id="successModal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl max-w-md w-full p-6 space-y-5 shadow-2xl relative">
+            <button onclick="closeModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white">
+                <i class="fa-solid fa-xmark text-lg"></i>
+            </button>
+
+            <div class="text-center space-y-2">
+                <div class="w-14 h-14 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 rounded-full flex items-center justify-center mx-auto text-2xl">
+                    <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <h3 class="text-xl font-black text-white">Pendaftaran Berhasil!</h3>
+                <p class="text-xs text-slate-400">Terima kasih, bukti pembayaran Anda telah kami terima dan sedang dikonfirmasi.</p>
+            </div>
+
+            <!-- Card Simulation E-Ticket -->
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-3 relative overflow-hidden">
+                <div class="border-b border-dashed border-slate-800 pb-3">
+                    <span class="text-[10px] text-blue-400 uppercase tracking-widest font-bold">E-TICKET SIMULATION</span>
+                    <h4 class="text-sm font-bold text-white">'Terror Machine' 25th North Ndapur</h4>
+                    <p class="text-[11px] text-slate-400">24 Okt 2026 | Sport Center Lamongan</p>
+                </div>
+
+                <div class="grid grid-cols-2 gap-2 text-xs">
+                    <div>
+                        <span class="text-slate-500 block text-[10px]">Nama Pemesan:</span>
+                        <span id="resName" class="font-semibold text-white"></span>
+                    </div>
+                    <div>
+                        <span class="text-slate-500 block text-[10px]">Jumlah Tiket:</span>
+                        <span id="resQty" class="font-semibold text-white"></span>
+                    </div>
+                    <div>
+                        <span class="text-slate-500 block text-[10px]">Metode Pembayaran:</span>
+                        <span id="resMethod" class="font-semibold text-white"></span>
+                    </div>
+                    <div>
+                        <span class="text-slate-500 block text-[10px]">Total Pembayaran:</span>
+                        <span id="resTotal" class="font-semibold text-blue-400"></span>
+                    </div>
+                </div>
+
+                <!-- Fake Barcode -->
+                <div class="pt-2 flex flex-col items-center justify-center">
+                    <div class="bg-white p-2 rounded w-full flex justify-center">
+                        <div class="h-10 bg-slate-900 w-full flex items-center justify-around px-2 space-x-1">
+                            <!-- Simulated barcode lines -->
+                            <div class="bg-black w-1 h-full"></div>
+                            <div class="bg-black w-2 h-full"></div>
+                            <div class="bg-black w-0.5 h-full"></div>
+                            <div class="bg-black w-1.5 h-full"></div>
+                            <div class="bg-black w-1 h-full"></div>
+                            <div class="bg-black w-3 h-full"></div>
+                            <div class="bg-black w-1 h-full"></div>
+                            <div class="bg-black w-0.5 h-full"></div>
+                            <div class="bg-black w-2 h-full"></div>
+                        </div>
+                    </div>
+                    <span class="text-[10px] text-slate-500 font-mono mt-1">CODE: NDAPUR-2026-X892</span>
+                </div>
+            </div>
+
+            <button onclick="closeModal()" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-2.5 rounded-xl text-sm transition">
+                Tutup & Simpan Tiket
+            </button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 border-t border-slate-800/80 py-6">
+        <div class="max-w-4xl mx-auto px-4 text-center text-xs text-slate-500 space-y-2">
+            <p>© 2026 Artatix x North Ndapur. All Rights Reserved.</p>
+            <p>Penyelenggara Acara: <strong>North Ndapur</strong></p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Script Code -->
+    <script>
+        let ticketPrice = 75000;
+        let quantity = 1;
+
+        // Switch Tabs Logic
+        function switchTab(tabName) {
+            // Hide all tabs
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+            document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+
+            // Show selected tab
+            document.getElementById('content-' + tabName).classList.remove('hidden');
+            document.getElementById('tab-' + tabName).classList.add('active');
+
+            // Scroll to tab section smoothly if on mobile
+            if (window.innerWidth < 768 && tabName === 'pemesanan') {
+                document.getElementById('content-pemesanan').scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        // Quantity Counter
+        function updateQuantity(change) {
+            quantity += change;
+            if (quantity < 1) quantity = 1;
+            if (quantity > 10) quantity = 10; // Max 10 tickets per transaction
+
+            document.getElementById('ticketQty').innerText = quantity;
+            calculateTotal();
+        }
+
+        function calculateTotal() {
+            let total = ticketPrice * quantity;
+            document.getElementById('totalPrice').innerText = 'Rp ' + total.toLocaleString('id-ID');
+        }
+
+        // Payment Method Details Toggle
+        function updatePaymentDetails() {
+            const method = document.querySelector('input[name="payment_method"]:checked').value;
+            const container = document.getElementById('paymentInstructions');
+
+            if (method === 'QRIS') {
+                container.innerHTML = `
+                    <p class="font-bold text-slate-300">Instruksi Pembayaran QRIS:</p>
+                    <p class="text-slate-400">Scan Kode QRIS resmi di bawah ini menggunakan M-Banking atau E-Wallet pilihan Anda:</p>
+                    <div class="flex justify-center py-2">
+                        <div class="bg-white p-2 rounded-lg inline-block border border-slate-200 shadow-md">
+                            <img src="qris.png" alt="QRIS Toko Ticket" class="w-48 h-auto max-w-full rounded">
+                        </div>
+                    </div>
+                `;
+            } else if (method === 'Transfer Bank') {
+                container.innerHTML = `
+                    <p class="font-bold text-slate-300">Nomor Rekening Pembayaran:</p>
+                    <div class="space-y-1.5 pt-1 text-slate-300">
+                        <div class="flex justify-between items-center bg-slate-900 p-2 rounded border border-slate-800">
+                            <span>BCA: <strong>8123-4567-890</strong> (a.n North Ndapur)</span>
+                            <button type="button" onclick="copyToClipboard('81234567890')" class="text-blue-400 hover:text-blue-300 font-bold">Salin</button>
+                        </div>
+                        <div class="flex justify-between items-center bg-slate-900 p-2 rounded border border-slate-800">
+                            <span>Mandiri: <strong>1410-0012-3456</strong> (a.n North Ndapur)</span>
+                            <button type="button" onclick="copyToClipboard('141000123456')" class="text-blue-400 hover:text-blue-300 font-bold">Salin</button>
+                        </div>
+                    </div>
+                `;
+            } else if (method === 'E-Wallet') {
+                container.innerHTML = `
+                    <p class="font-bold text-slate-300">Nomor E-Wallet (GoPay / ShopeePay / DANA):</p>
+                    <div class="flex justify-between items-center bg-slate-900 p-2 rounded border border-slate-800 text-slate-300 mt-1">
+                        <span>No. HP/E-Wallet: <strong>0812-3456-7890</strong></span>
+                        <button type="button" onclick="copyToClipboard('081234567890')" class="text-blue-400 hover:text-blue-300 font-bold">Salin</button>
+                    </div>
+                `;
+            }
+        }
+
+        // File Selection Helper
+        function handleFileSelect(e) {
+            const file = e.target.files[0];
+            if (file) {
+                document.getElementById('fileUploadInfo').innerHTML = `
+                    <i class="fa-solid fa-file-circle-check text-2xl text-emerald-400"></i>
+                    <p class="text-xs text-emerald-400 font-bold">${file.name}</p>
+                    <p class="text-[10px] text-slate-500">${(file.size / 1024 / 1024).toFixed(2)} MB</p>
+                `;
+            }
+        }
+
+        // Copy text helper
+        function copyToClipboard(text) {
+            const tempInput = document.createElement("input");
+            tempInput.value = text;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            alert("Nomor berhasil disalin: " + text);
+        }
+
+        // Submit Form Handler
+        function handleFormSubmit(e) {
+            e.preventDefault();
+
+            const name = document.getElementById('fullname').value;
+            const method = document.querySelector('input[name="payment_method"]:checked').value;
+            const total = ticketPrice * quantity;
+
+            document.getElementById('resName').innerText = name;
+            document.getElementById('resQty').innerText = quantity + ' Tiket';
+            document.getElementById('resMethod').innerText = method;
+            document.getElementById('resTotal').innerText = 'Rp ' + total.toLocaleString('id-ID');
+
+            document.getElementById('successModal').classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('successModal').classList.add('hidden');
+        }
+
+        // Initial setup on load
+        window.onload = function() {
+            switchTab('deskripsi');
+        }
+    </script>
+</body>
+</html>
